@@ -1,9 +1,10 @@
 # MotoG5_Cedric
 Just installing shit on this phone to see what we can come up to
 
-# Structured documents
+# TWRP Installation and Root Access
 
-Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
+**It's important that you have your device with an Unlocked Bootloader in order to flash custom ROMS. **
+
 
 ### This is a third-tier heading
 
