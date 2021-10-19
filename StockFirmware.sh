@@ -1,11 +1,14 @@
 #!/bin/bash 
+
 echo "Hello, this will flash your Motorola Credic back into stock firmware"
+
 echo -----------------------------------------------------------------
 sleep 4
 echo "Be advised this will deleted EVERYTHING IN YOUR DEVICE, I am not responsible for any bricked devices"
-read "If you are ok with this, type yes to continue or type no to exit this script" $user_ans
-echo 
-if " $user_ans == 'yes'" then 
+sleep 4
+read -p "If you are ok with this, type yes to continue or type no to exit this script" $user_ans
+echo ""
+if [[ $user_ans == "yes"]]; then 
   echo "alright lets flash"
 else 
   exit
